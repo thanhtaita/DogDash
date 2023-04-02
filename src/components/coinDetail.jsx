@@ -99,6 +99,6 @@ const coinDetail = () => {
       </table>
     </div>
   );
-};
+}
 
 export default coinDetail;
