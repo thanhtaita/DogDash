@@ -1,9 +1,9 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 2rem;
   text-align: center;
-  color: black
+  color: black;
 }
 
 .logo {
@@ -42,62 +42,95 @@
   color: #888;
 }
 
-.sidenav{
+.sidenav {
   height: 100%;
-  width: 25%;
+  width: 30rem;
   position: fixed;
   top: 0;
-  left:0;
+  left: 0;
   bottom: 0;
-  background-color: #232323;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
-  overflow-y: scroll;
+  background-color: rgba(52, 52, 52, 0.598);
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #ebe9e9;
 }
-.tab {
-  display: inline-block;
-  margin-left: 75px;
-  }
 
-.whole-page{
-  padding: 50px;
-  text-align: center;
-  background: black;
+.whole-page {
+  display: flex;
+  align-items: center;
+}
+
+.dog-list {
+  padding: 5rem;
   color: white;
+  border-radius: 2rem;
+  margin-left: 30rem;
 }
 
-li.main-list{
-  padding: 25px;
-  border-bottom: solid 3px white ;
+li.main-list {
+  padding-bottom: 1rem;
   font-size: larger;
-}  
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
 
-ul{
+ul {
   list-style: none;
-  margin:25px 50px 75px 30px ;
+  margin: 25px 50px 75px 30px;
 }
 
-.icons{
+.icons {
   padding-right: 10px;
-  width: 30px;
-  height: 30px;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
 }
 
-
-nav {
-  position: fixed; 
-  top: 0; 
-  right: 0; 
+.title {
+  font-size: 2rem;
+  padding-bottom: 2rem;
 }
 
-.home-link 
-{
-  border:1px dotted white;
-  background:#1d1f1d;
-  width:75px;
+.sidenav-element {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.home-link {
+  border: 1px dotted rgb(21, 49, 232);
+  background: #1d1f1d;
+  width: 75px;
+}
+
+.dog-detail-container {
+  display: flex;
+  align-items: center;
+  display: flex;
+  margin-left: 40rem;
+  background-color: rgba(235, 185, 22, 0.745);
+  padding: 3rem;
+  color: #e9faffdc;
+  width: 70rem;
+  border-radius: 1rem;
+  justify-content: flex-start;
+}
+
+.dog-detail-content {
+  display: flex;
+  flex-direction: column;
+}
+.dog-detail-container img {
+  width: 20rem;
+  border-radius: 1rem;
+}
+
+.dog-detail-content span {
+  font-size: 2rem;
+}
+
+.noPage {
+  margin-left: 30rem;
 }

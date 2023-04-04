@@ -1,9 +1,9 @@
-import coinDetail from "../src/components/coinDetail";
+import DogDetail from "../src/components/DogDetail";
 
 const DetailView = () => {
   return (
     <div>
-      <coinDetail />
+      <DogDetail />
     </div>
   );
 };

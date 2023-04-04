@@ -6,7 +6,7 @@ const Layout = () => {
       <nav>
         <ul>
           <li className="home-link" key="home-button">
-            <Link style={{ textDecoration: 'none', color: 'blue' }} to="/">
+            <Link style={{ textDecoration: "none", color: "blue" }} to="/">
               Home
             </Link>
           </li>
